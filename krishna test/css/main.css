@@ -1,0 +1,311 @@
+/************************************************************************
+   ___ _                          _               
+  / __\ |__   __ _ _ __ __ _  ___| |__   ___  ___ 
+ / /  | '_ \ / _` | '__/ _` |/ _ \ '_ \ / _ \/ _ \
+/ /___| | | | (_| | | | (_| |  __/ |_) |  __/  __/
+\____/|_| |_|\__,_|_|  \__, |\___|_.__/ \___|\___|
+                       |___/                      
+
+/*********************** Commenting is sexy ******************************/
+/*********************** Write your styles below *************************/
+
+/*********************** Krishna Kumar ******************************/
+/*********************** Ya i Agree that  ******************************/
+
+
+/*********************** Header ******************************/
+.topBanner {
+	text-align: center;
+	background: #f7f7f7;
+	padding-top: 100px;
+	padding-bottom: 20px;
+}
+.bannerHead {
+	margin-bottom: 30px;
+}
+.bannerHead b, .bannerHead span {
+	display: block;
+}
+.bannerHead b {
+	font-size: 36px;
+	color: #525252;
+}
+.bannerHead span {
+	font-size: 18px;
+    margin: 0 auto;
+    color: #666;
+    line-height: 134%;
+    width: 380px;
+}
+.logoWrapper {
+	margin-bottom: 30px;
+}
+.logoWrapper img {
+	width: 229px;
+	display: inline-block;
+}
+.logoWrapper i {
+	font-size: 20px;
+	text-transform: uppercase;
+	display: inline-block;
+}
+.logoWrapper i:first-child {
+	color: #8AB5D5;
+}
+.logoWrapper i:last-child {
+	color: #CFA622;
+}
+.signupBtn {
+	font-size: 18px;
+    border: none;
+    outline: none;
+    color: #fff;
+    text-shadow: 0 -2px 0 rgba(0,0,0,0.1);
+    background: #06C587;
+    box-shadow: inset -0px -4px 0 0 #04AF78;
+    display: inline-block;
+    padding: 10px 40px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+.bannerTagline {
+	font-size: 16px;
+    line-height: 134%;
+    color: #646464;
+    width: 210px;
+    margin: 0 auto 25px;
+}
+.scrollDownIco {
+	background: url(../images/banner-arrow@2x.png) no-repeat;
+	display: block;
+	margin: 0 auto 20px;
+	width: 24px;
+	height: 24px;
+	background-size: 100% auto;
+}
+nav {
+	background: #EE2C2C;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
+.navHeadline {
+	font-size: 24px;
+	color: #F6F8FC;
+}
+.mainNav {
+	list-style: none;
+}
+.mainNav li {
+	display: inline-block;
+}
+.mainNav li:after {
+	content: "----";
+	display: inline-block;
+	margin-left: 3px;
+}
+.mainNav li:last-child:after{
+	display: none;
+}
+.mainNav li a {
+	display: inline-block;
+	color: #fff;
+	border: 1px solid #F6F8FC;
+	border-radius: 50px;
+	padding: 5px 10px;
+	width: 125px;
+	color: rgba(246,248,252,0.8);
+	font-weight: lighter;
+	transition: all .3s ease;
+}
+.mainNav li a:hover {
+	background: #F6F8FC;
+	color: #0F334F;
+	text-decoration: none;
+}
+/*********************** content ******************************/
+.contentBanner {
+	background: #4F2F4F;
+	margin-bottom: 50px;
+}
+.demoImg {
+	width: 360px;
+    height: 580px;
+    text-align: center;
+    border: 1px dashed rgba(255,255,255,0.2);
+    border-radius: 0 0 60px 60px;
+    margin: 0 auto 60px;
+    border-top: none;
+
+}
+.demoImg img {
+	width: 320px;
+	height: 475px;
+	margin: 0 auto;
+}
+.demoImg span {
+	display: inline-block;
+	border-radius: 100px;
+	width: 47px;
+	height: 47px;
+	border: 1px solid rgba(255,255,255,0.2);
+	margin-top: 35px;
+}
+.demoImgText {
+	margin-top: 185px;
+}
+.demoImgText p {
+    color: #F6F8FC;
+    font-size: 20px;
+    width: 370px;
+}
+.demoImgText p b {
+	font-size: 36px;
+    display: block;
+    width: 200px;
+    line-height: 96%;
+    text-transform: uppercase;	
+}
+.featureHead {
+	margin: 0;
+	font-size: 32px;
+	color: #525252;
+	text-transform: uppercase;
+}
+.featureHeadTagline {
+	font-size: 16px;
+	margin-top: 0;
+	color: #525252;
+}
+.featureList li {
+	list-style: none;
+	position: relative;
+}
+.featureList li i {
+	position: absolute;
+	font-size: 16px;
+	color: #6E78B4;
+	left: -30px;
+	top: 4px;
+}
+.featureList li h4 {
+	font-size: 18px;
+	color: #333;
+	line-height: 134%;
+	margin: 0;
+}
+.review h3 {
+	font-size: 26px;
+	color: #525252;
+	line-height: 120%;
+	margin: 0;
+}
+.review .reviewDisc {
+	font-size: 16px;
+    color: #646464;
+    line-height: 150%;
+    width: 95%;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #f3f3f3;
+    position: relative;
+    margin-bottom: 20px;
+}
+.review .reviewDisc:after {
+	    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 15px solid #F6F8FC;
+    position: absolute;
+    top: 100%;
+    left: 10px;
+    content: "";
+}
+.reviewCompany img {
+	width: 40px;
+	height: 40px;
+	float: left;
+}
+.reviewCompany span {
+	font-size: 14px;
+	color: #06C587;
+	line-height: 115%;
+	display: inline-block;
+	margin-left: 9px;
+}
+.reviewCompany span b {
+	color: #646464;
+}
+.bottomBanner {
+	background: #27292F;
+	text-align: center;
+	margin-top: 60px;
+}
+.bottomBanner ul li {
+	list-style: none;
+	display: inline-block;
+	width: 19%;
+	padding: 20px 0 20px 0;
+}
+.bottomBanner ul li img {
+	width: 80%;
+}
+/*********************** footer ******************************/
+footer {
+	text-align: center;
+	padding: 30px 0 30px 0;
+}
+footer ul {
+	list-style-type: none;
+}
+footer ul li {
+	display: inline-block;
+	font-size: 12px;
+	
+	text-transform: uppercase;
+}
+footer ul li a {
+	color: #222;
+	display: inline-block;
+	padding: 0 10px;
+}
+footer ul li a:hover {
+	text-decoration: none;
+}
+footer ul li a img {
+	width: 60%;
+}
+/*********************** media ******************************/
+@media screen and (min-width: 360px) and (max-width: 991px) {
+	.logoWrapper img {
+		width: 160px;
+	}
+	.logoWrapper i {
+		font-size: 11px
+	}
+	.signupBtn {
+		font-size: 20px;
+	}
+	.bannerTagline, .scrollDownIco, .mainNav, .demoImgText {
+		display: none;
+	}
+	.contentBanner {
+		background: transparent;
+		margin: 0;
+	}
+	.demoImg, .demoImg img  {
+		width: 100%;
+		height: auto;
+		border: none;
+		margin: 0;
+	}
+	.bottomBanner ul li:last-child {
+		display: none;
+	}
+	.bottomBanner ul li {
+		width: 49%;
+	}
+	footer ul li {
+		display: block;
+	}
+}
