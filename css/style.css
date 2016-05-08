@@ -1,0 +1,226 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+body {
+	position: relative;
+	background-color: #C0D5D5;
+}
+#logo {
+	width:100px;
+	margin-left: 10%;
+}
+#header {
+	position:fixed;
+	background-color: #80997F;
+	width: 100%;
+	padding: 10px;
+}
+.top-nav {
+	display: inline-block;
+	float: right;
+	margin-right: 10%;
+}
+.top-bar li {
+	float: left;
+	list-style-type: none;
+	display: inline-block;
+	padding: 25px;
+}
+li a {
+	text-decoration: none;
+}
+li a :hover {
+	background-color: #FA69F7;
+}
+.main-div {
+	width: 100%;
+}
+.side-bar {
+	position: fixed;
+	width: 300px;
+	height:100%;
+	background-color: #73C7C7;
+	margin-top: 89px;
+	padding: 30px;
+	color: #7474AC;
+	font-size: 24px;
+}
+.add {
+	width: 200px;
+	height:800px;
+	background-color: orange;
+	float: left;
+}
+.main-contant {
+	padding: 40px;
+	margin-left: 360px;
+}
+.contant1 {
+	padding: 30px;
+	margin-left: 200px;
+	margin-top: 60px;
+}
+
+@media all and (min-width: 768px) and (max-width: 1023px){
+	#header {
+		width:100%;
+	}
+	.main-div {
+		width: 100%;
+	}
+	.side-bar {
+		width:250px;
+	}
+	.add {
+		width: 150px;
+	}
+	.contant1 {
+		margin-left: 150px;
+	}
+	.main-contant {
+		margin-left: 300px;
+	}
+
+}
+@media all and (min-width: 480px) and (max-width: 767px){
+	#header {
+		width:100%;
+	}
+	.main-div {
+		width: 100%;
+	}
+	.side-bar {
+		width:200px;
+	}
+	.add {
+		width: 150px;
+	}
+	.contant1 {
+		margin-left: 130px;
+	}
+	.main-contant {
+		margin-left: 250px;
+	}
+
+}
+@media all and (min-width: 481px) and (max-width: 700px){
+	#logo {
+	width:100px;
+	margin-left: 2%;
+}
+#header {
+	width: 100%;
+	padding: 10px;
+}
+.top-nav {
+	display: inline-block;
+	float: right;
+	margin-right: 2%;
+}
+.top-bar li {
+	padding: 5px;
+}
+
+}
+@media all and (max-width: 480px) {
+	body {
+		background-color: #80997F;
+	}
+	#logo {
+		width:100px;
+		margin-left: 40%;
+	}
+	#header {
+		position: static;
+	}
+	.top-nav {
+	display: inline-block;
+	text-align: center;
+	margin-top: 70px;
+	background-color: #80997F;
+	margin-right: 30%;
+}
+.top-bar li {
+	list-style-type: none;
+	display: block;
+	float: none;
+	padding-top:5px;
+}
+.side-bar {
+	width: 100%;
+	padding: 10px;
+	position: static;
+	margin-top: 260px;
+	float: none;
+	font-size: 20px;
+}
+.add {
+	width: 100%;
+	height: 500px;
+	float: none;
+	background-color: yellow;
+}
+.contant1 {
+	width: 100%;
+	float: none;
+	padding: 0px;
+	margin-left: 0px;
+	margin-top: 40px;
+}
+
+.main-contant {
+	padding: 20px;
+	margin-left: 0px;
+	background-color: black;
+	color:white;
+}
+
+}
