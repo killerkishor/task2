@@ -1,0 +1,125 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>07</title>
+        <style type="text/css">
+        /*------------------------------------------------------------
+		Chargebee
+        ------------------------------------------------------------*/
+        *{
+        	margin:0;
+        	padding:0;
+        }
+        body{
+        	font-family:sans-serif;
+        }
+        .question{
+        	color:#6C6EFA;
+            margin:20px 0;
+        }
+        .result{
+            margin-bottom: 50px;
+            padding-bottom: 50px;
+            border-bottom: 1px solid;
+        }
+        .result img{
+            max-width:100%;
+        }
+        /*------------------------------------------------------------
+		Don't modify
+        ------------------------------------------------------------*/
+        div{
+            position:relative;
+            width:300px;
+            height:200px;
+        }
+        div p{
+            width:150px;
+            height:100px;
+            color:white;
+            font-size:30px;
+        }
+        .div1{
+            background-color:orange;
+        }
+        .div2{
+            background-color:red;
+        }
+        .div3{
+            background-color:blue;
+        }
+        .p1{
+            background-color:red;
+        }
+        .p2{
+            background-color:blue;
+        }
+        .p3{
+            background-color:orange;
+        }
+        /*------------------------------------------------------------
+        Modify
+        ------------------------------------------------------------*/
+        .div1{
+        }
+        .div2{
+        }
+        .div3{
+            position: static;
+        }
+        .p1{
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            margin: auto;
+        }
+        .p2{
+            position: absolute;
+            left: 100%;
+            top: -35px;
+        }
+        .p3{
+            position: absolute;
+            left: 300px;
+            top: 1015px;
+        }
+        </style>
+    </head>
+    <body>
+        <!-- question -->
+        <pre class="question">
+        /*------------------------------------------------------------------------------------------*/
+         *
+         *  <strong>Do's:</strong>
+         *      Use only position's(relative,absolute,fixed,static).
+         *          Box1 - Align the inside element to the center.
+         *          Box2 - Algin the inside element to the right.
+         *          Box3 - Affix(fixed while scrolling the page) the inside element to the right.
+         *
+         *  <strong>Don'ts:</strong>
+         *      Don't alter html and don't override width property.
+         *      Don't use float and padding properties.
+         *
+        /*------------------------------------------------------------------------------------------*/
+        </pre>
+    	<p class="question"></p>
+        <!-- result -->
+        <p class="result">Result expect<br><br>
+            <img src="07.png">
+        </p>
+
+        <!-- happy coding -->
+     	<div class="div1">
+            <p class="p1">1</p>
+        </div>
+        <div class="div2">
+            <p class="p2">2</p>
+        </div>
+        <div class="div3">
+            <p class="p3">3</p>
+        </div>
+    </body>
+</html>

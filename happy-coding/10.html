@@ -1,0 +1,142 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>10</title>
+        <style type="text/css">
+        /*------------------------------------------------------------
+        Chargebee
+        ------------------------------------------------------------*/
+        *{
+            margin:0;
+            padding:0;
+        }
+        body{
+            font-family:sans-serif;
+        }
+        .question{
+            color:#6C6EFA;
+            margin:20px 0;
+        }
+        .result{
+            margin-bottom: 50px;
+            padding-bottom: 50px;
+            border-bottom: 1px solid;
+        }
+        .result img{
+            max-width:100%;
+        }
+        /*------------------------------------------------------------
+		Don't Modify
+        ------------------------------------------------------------*/
+        .div{
+            width:450px;
+        }
+        .div1,
+        .div2,
+        .div3{
+            width:150px;
+            height:150px;
+            color:#fff;
+            font-size:15px;
+        }
+        .div1{
+            background-color:red;
+        }
+        .div2{
+            background-color:blue;
+        }
+        .div3{
+            background-color:orange;
+        }
+        /*------------------------------------------------------------
+        Modify
+        ------------------------------------------------------------*/
+        .div1,
+        .div2,
+        .div3{
+            display: inline-block;
+        }
+        
+        @media screen and (min-width: 1200px) {
+            .div1{
+                float: right;
+        }
+        .div2{
+            float: left;
+        }
+        .div3{
+            float: right;
+        }
+        }
+        @media screen and (min-width: 992px) and (max-width: 1199px) {
+            .div1{
+                float: left;
+        }
+        .div2{
+            display: none;
+        }
+        .div3{
+            float: left;
+        }
+        }
+        @media screen and (min-width: 768px) and (max-width: 991px) {
+            .div1{
+                display: none;
+        }
+        .div2{
+            float: left;
+        }
+        .div3{
+            float: left;
+        }
+        }
+        @media screen and (max-width: 767px) {
+           .div1,
+        .div2,
+        .div3{
+            float: left;
+        }
+        }
+        </style>
+    </head>
+    <body>
+    	<!-- question -->
+        <pre class="question">
+        /*------------------------------------------------------------------------------------------*/
+         *
+         *  <strong>Do's:</strong>
+         *      Use media queries to make it responsive.
+         *          1. Write the viewport meta and align boxes to the left.
+         *          2. On larger display(1200) align the "large" box to the right.
+         *          3. On medium display(992) just hide the "medium" box.
+         *          4. On small display(768) just hide the "large" box.
+         *          5. On extra small display(767) show and align all the boxes to the left.
+         *
+         *  <strong>Don'ts:</strong>
+         *      Don't alter the html.
+         *      Don't use position property.
+         *
+        /*------------------------------------------------------------------------------------------*/
+        </pre>
+
+        <!-- result -->
+        <p class="result">Result expect<br><br>
+            <small>On larger display(1200)</small><br><br>
+            <img src="10.png" width="450"><br><br>
+            <small>On medium display(992)</small><br><br>
+            <img src="10-01.png" width="300"><br><br>
+            <small>On small display(768)</small><br><br>
+            <img src="10-02.png" width="300"><br><br>
+            <small>On extra small display(767)</small><br><br>
+            <img src="10-03.png" width="450">
+        </p>
+
+    	<!-- happy coding -->
+        <div class="div">
+            <div class="div1">large(1200)</div>
+            <div class="div2">medium(992)</div>
+            <div class="div3">small(768)</div>
+        </div>
+    </body>
+</html>
